@@ -1,34 +1,34 @@
 // EXERCISE 1
 function whileLoop1() {
-  const Array = [];
+  const array = [];
   let i = 0;
   while (i < 10) {
-    Array.push(i);
+    array.push(i);
     i++;
   }
-  return Array;
+  return array;
 }
-console.log(whileLoop1(Array));
+console.log(whileLoop1());
 
 // EXERCISE 2
 function whileLoop2() {
-  const Array2 = [];
+  const array2 = [];
   let i = 0;
   while (i < 20) {
-    Array2.push(i);
+    array2.push(i);
     i += 2;
   }
-  return Array2;
+  return array2;
 }
 console.log(whileLoop2());
 
 // EXERCISE 3
 function forLoop1() {
-  const Array3 = [];
+  const array3 = [];
   for (let i = 0; i < 10; i++) {
-    Array3.push(i);
+    array3.push(i);
   }
-  return Array3;
+  return array3;
 }
 console.log(forLoop1());
 
@@ -48,20 +48,20 @@ const object = {
   invention: 'analytical engine',
 };
 function forInLoop1(obj) {
-  const Array4 = [];
+  const array4 = [];
   for (const prop in obj) {
-    Array4.push(prop);
+    array4.push(prop);
   }
-  return Array4;
+  return array4;
 }
 console.log(forInLoop1(object));
 
 // EXERCISE 6
 function forInLoop2(obj) {
-  const Array5 = [];
+  const array5 = [];
   for (const prop in obj) {
-    Array5.push(obj[prop]);
+    array5.push(obj[prop]);
   }
-  return Array5;
+  return array5;
 }
 console.log(forInLoop2(object));
